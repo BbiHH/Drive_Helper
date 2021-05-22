@@ -1,0 +1,9 @@
+# train images path and val inages path
+train: bdd100k/data1/bdd100k/images/100k/train/  # bdd100k train images
+val:  bdd100k/data1/bdd100k/images/100k/val/  # bdd100k val images
+
+# number of classes
+nc: 5
+
+# class names
+names: [ 'person', 'car' , 'bus' , 'truck' ,'rider']
